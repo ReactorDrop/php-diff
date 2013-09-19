@@ -43,7 +43,7 @@
  * @link http://github.com/chrisboulton/php-diff
  */
 
-class Diff_Diff
+class Diff
 {
 	/**
 	 * @var array The "old" sequence to use as the basis for the comparison.

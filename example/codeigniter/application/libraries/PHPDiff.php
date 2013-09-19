@@ -13,7 +13,10 @@ class PHPDiff
   public function __construct()
   {
     // load our main library and "renderers"
-    require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff.php';
+    require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff/SequenceMatcher.php';
+    require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff/Diff.php';
+    require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff/Renderer/Abstract.php';
+    require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff/Renderer/Html/Array.php';
     require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff/Renderer/Html/SideBySide.php';
     require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff/Renderer/Html/Inline.php';
     require_once BASEPATH . '../../vendor/reactordrop/php-diff/lib/Diff/Renderer/Text/Unified.php';
