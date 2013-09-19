@@ -6,6 +6,10 @@
     {
       "name": "Chris Boulton",
       "email": "@chrisboulton"
+    },
+    {
+      "name": "Andrew Seymour",
+      "homepage": "http://www.reactordrop.com/"
     }
   ],
   "autoload": {
